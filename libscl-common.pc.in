@@ -1,0 +1,13 @@
+# Package Information for pkg-config
+
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libscl-common
+Description: SCL Common - A library for developing software keyboards
+Version: 1.0
+Libs: -L${libdir} -lscl-common
+Cflags: -I${includedir}/libscl-common
+
