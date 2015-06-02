@@ -22,7 +22,7 @@ Group:      Development/Libraries
 Requires:   %{name} = %{version}-%{release}
 
 %description devel
-A devel pacakge of libscl-common library that helps developing S/W Keyboard
+A devel package of libscl-common library that helps developing S/W Keyboard
 
 %prep
 %setup -q
