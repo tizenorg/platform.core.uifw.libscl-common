@@ -29,7 +29,7 @@ A devel package of libscl-common library that helps developing S/W Keyboard
 
 
 %build
-cmake . -DCMAKE_INSTALL_PREFIX=%{_prefix}
+cmake . -DCMAKE_INSTALL_PREFIX=%{_prefix} -DLIB_INSTALL_DIR:PATH=%{_libdir}
 make %{?jobs:-j%jobs}
 
 %install
