@@ -21,7 +21,7 @@ INCLUDE_DIRECTORIES(${CMAKE_SOURCE_DIR}/src
 
 INCLUDE(FindPkgConfig)
 pkg_check_modules(pkgs REQUIRED
-        elementary
+        evas
         )
 
 FOREACH(flag ${pkgs_CFLAGS})

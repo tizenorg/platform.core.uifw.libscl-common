@@ -8,9 +8,8 @@ Release:    1
 Group:      Graphics & UI Framework/Input
 License:    Apache-2.0
 Source0:    libscl-common-%{version}.tar.gz
-BuildRequires:  gettext-tools
 BuildRequires:  cmake
-BuildRequires:  pkgconfig(elementary)
+BuildRequires:  pkgconfig(evas)
 
 
 %description
